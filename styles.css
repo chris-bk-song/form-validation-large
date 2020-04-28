@@ -1,0 +1,53 @@
+body {
+  margin-left: 10px;
+
+}
+
+.form-group {
+  width: 150px;
+}
+
+#email {
+  width: 300px;
+}
+
+#about-me {
+  width: 400px;
+  height: 200px;
+}
+
+label {
+  display: block;
+  margin: 1px;  
+  padding: 1px;
+}
+
+.field {
+  margin: 1px;
+  padding: 1px;
+}
+
+input:invalid {
+  background-color: #ffdddd;
+}
+
+form:invalid {
+  border: 5px solid #ffdddd;
+}
+
+input:valid {
+  background-color: #ddffdd;
+}
+
+form:valid {
+  border: 5px solid #ddffdd;
+}
+  
+input:required {
+  border-color: #800000;
+  border-width: 3px;
+}
+
+input:required:invalid {
+  border-color: #c00000;
+}
